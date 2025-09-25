@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6; /* gris clair */
+    padding: 2rem;
+    color: #1f2937; /* gris foncé */
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #111827; /* noir */
+}
+
+.projet-card {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.projet-card:hover {
+    transform: scale(1.02);
+}
+
+.projet-card h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2563eb; /* bleu */
+}
+
+.projet-card p {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
