@@ -16,11 +16,12 @@ class ProjetController extends Controller
 
     }
 
-    // Formulaire pour créer un projet
+    // Pour afficher le formulaire de création
     public function create()
     {
-        return view('projets.create');
+        return view('projets.backoffice.create');
     }
+
 
     // Enregistrer un nouveau projet
     public function store(Request $request)
@@ -50,7 +51,7 @@ class ProjetController extends Controller
     // Formulaire pour éditer un projet
     public function edit(Projet $projet)
     {
-        return view('projets.edit', compact('projet'));
+        return view('projets.backoffice.edit', compact('projet'));
     }
 
     // Mettre à jour un projet
